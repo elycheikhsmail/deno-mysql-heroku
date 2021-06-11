@@ -1,1 +1,1 @@
-web: deno run --allow-all index.ts --port=${PORT}
+web: deno run --allow-all server.ts --port=${PORT}
