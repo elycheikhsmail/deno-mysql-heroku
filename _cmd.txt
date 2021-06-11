@@ -1,0 +1,15 @@
+export HOST=127.0.0.1
+export DBUSER=deno
+export DBNAME=deno
+export DBPASSWORD=deno  
+deno run --allow-all server.ts 
+
+deployctl run --watch --no-check server.ts 
+
+deployctl run --libs=ns,fetchevent ./post.ts 
+deployctl run --no-check post.ts 
+
+deployctl run --libs=ns,fetchevent ./server.ts 
+deployctl run --libs=ns,fetchevent ./server.ts 
+deno builte
+--libs=ns,fetchevent

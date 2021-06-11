@@ -1,0 +1,19 @@
+ 
+### 
+# STATUS TESTED ✔️
+GET https://oak-mysql-todo-f8310171.deno.dev/api/todos
+Content-Type: application/json
+
+### https://oak-mysql-todo-f8310171.deno.dev/
+POST  http://localhost:8080/api/todos HTTP/1.1
+Content-Type: application/json
+
+{
+    "text":"dasdds"
+}
+ 
+### https://oak-mysql-todo-f8310171.deno.dev/
+GET  http://localhost:8080/api/todos HTTP/1.1
+Content-Type: application/json
+
+ 

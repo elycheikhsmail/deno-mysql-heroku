@@ -1,0 +1,1 @@
+web: deno run --allow-all index.ts --port=${PORT}
